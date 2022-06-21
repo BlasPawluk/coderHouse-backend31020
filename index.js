@@ -1,3 +1,4 @@
+const fs = require('fs');
 let listadoUsuarios = [];
 let listaDeLibros = [];
 
@@ -54,8 +55,8 @@ class Libro {
 let librito1 = new Libro(' ');
 let librito2 = new Libro(' ');
 //CLogueo antes para mostrar que estan vacios.
-console.log(listadoUsuarios);
-console.log(listaDeLibros);
+//console.log(listadoUsuarios);
+//console.log(listaDeLibros);
 
 //Aplico las funciones
 
@@ -67,7 +68,7 @@ listadoUsuarios.push(usuario5);
 librito1.addBook('El señor de los anillos', 'J.R.R. Tolkien');
 librito2.addBook('El Padrino', 'Mario Puzo');
 //consolegueo antes de ejecutar las funciones sobre "usuario1"
-console.log(usuario1);
+//console.log(usuario1);
 usuario1.getFullName();
 usuario1.cumplirAños();
 usuario1.addMascotas();
@@ -79,11 +80,11 @@ listaDeLibros.push(librito1);
 listaDeLibros.push(librito2);
 
 //una vez pusheados los usuarios y libros en el array, los muestro en consola, y debajo de ambas Class pido un ejemplo con usuario1
-console.log(usuario1);
+//console.log(usuario1);
 
 //Pido por medio de usuario.mascotas.length el numero de mascotas del primer usuario y lo muestro en consola, gracias a addMascotas y countMascotas me da como resultado "2"
-console.log(usuario1.mascotas.length);
+//console.log(usuario1.mascotas.length);
 
 //Finalmente, pido a la consola que me muestre los libros agregados en la Class Libro por medio de la funcion addBook.
-console.log(librito1);
-console.log(librito2);
+//console.log(librito1);
+//console.log(librito2);
