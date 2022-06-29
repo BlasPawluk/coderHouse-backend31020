@@ -113,3 +113,5 @@ setTimeout(() => {
 //setTimeout(() => {
 //contenedor1.deleteAll(), 7000;
 //});
+
+module.exports = Contenedor;

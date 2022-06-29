@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
-
+const Contenedor = require('./index2.js');
 //Pase todos los productos a productos.txt
 //let productos = [
 //  { id: 1, nombre: 'Laptop', precio: 1000 },
@@ -16,11 +16,18 @@ app.get('/productos', (req, resp) => {
 });
 
 app.get('/productosRandom/:id', async (req, resp) => {
-  let id = Number(req.params.id) - 1;
+  let id = Number(req.params.id);
   let result = await fs.promises.readFile('productos.txt', 'utf-8');
   let productos = JSON.parse(result);
+  let buscador = buscarProducto(productos, id);
+  console.log(buscador);
   resp.send(productos[id]); //Envio el objeto que se encuentra en la posicion id
 });
+
+const buscarProducto = (productos, id) => {
+  let prod = productos.find((elem) => elem.id == id);
+  return prod;
+};
 
 const PORT = 8000;
 app.listen(PORT, () => console.log('Server on port 8000'));
