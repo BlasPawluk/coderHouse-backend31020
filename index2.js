@@ -90,6 +90,7 @@ const producto3 = {
   precio: '$500',
   descripcion: 'Zapatos de para ir a caminar',
 };
+console.log(contenedor1);
 
 setTimeout(() => {
   contenedor1.save(producto1);
@@ -109,6 +110,6 @@ setTimeout(() => {
 setTimeout(() => {
   contenedor1.deleteById(2), 6000;
 });
-setTimeout(() => {
-  contenedor1.deleteAll(), 7000;
-});
+//setTimeout(() => {
+//contenedor1.deleteAll(), 7000;
+//});

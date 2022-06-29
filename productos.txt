@@ -1,0 +1,6 @@
+let productos = [
+  { id: 0, nombre: 'Laptop', precio: 1000 },
+  { id: 1, nombre: 'Celular', precio: 2000 },
+  { id: 2, nombre: 'Tablet', precio: 3000 },
+  { id: 3, nombre: 'Mouse', precio: 4000 }
+];
