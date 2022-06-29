@@ -71,7 +71,7 @@ class Contenedor {
   }
 }
 
-const contenedor1 = new Contenedor('productos.json');
+const contenedor1 = new Contenedor('productos.txt');
 
 const producto1 = {
   nombre: 'Nike Air Max',
@@ -114,4 +114,4 @@ setTimeout(() => {
 //contenedor1.deleteAll(), 7000;
 //});
 
-module.exports = Contenedor;
+module.exports = { Contenedor };
