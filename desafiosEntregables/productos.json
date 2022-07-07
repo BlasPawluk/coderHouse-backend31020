@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": "Nike Jordan Style Loyal",
+    "precio": 450000,
+    "imagen": "https://i.ibb.co/SK18Szh/Nike-Jordan-Stay-Loyal.webp",
+    "id": 1
+  },
+  {
+    "nombre": "Adidas Stan Smith",
+    "precio": 450000,
+    "imagen": "https://i.ibb.co/C6y979J/Stan-Smith.webp",
+    "id": 2
+  },
+  {
+    "nombre": "Puma Electrify Nitro",
+    "precio": 450000,
+    "imagen": "https://i.ibb.co/5kjhkmP/Electrify-Nitro.webp",
+    "id": 3
+  },
+  {
+    "nombre": "Retropy F2",
+    "precio": 45000,
+    "imagen": "https://i.ibb.co/YyfNVFK/Retropy-F2.webp",
+    "id": 4
+  },
+  {
+    "nombre": "Forum Mid",
+    "precio": 45000,
+    "imagen": "https://i.ibb.co/2tfJ0wR/Forum-Mid.jpg",
+    "id": 5
+  },
+  {
+    "nombre": "OZWEEGO Celox",
+    "precio": 45000,
+    "imagen": "https://i.ibb.co/9gHwV04/OZWEEGO-Celox.webp",
+    "id": 6
+  },
+  {
+    "nombre": "Kosmo Rider Gradient",
+    "precio": 45000,
+    "imagen": "https://i.ibb.co/WW59BSF/Kosmo-Rider-Gradient.webp",
+    "id": 7
+  },
+  {
+    "nombre": "Liberate Nitro",
+    "precio": 45000,
+    "imagen": "https://i.ibb.co/hm8rQ57/Liberate-Nitro.webp",
+    "id": 8
+  },
+  {
+    "nombre": "Nike Jordan Stay Loyal",
+    "precio": 45000,
+    "imagen": "https://i.ibb.co/SK18Szh/Nike-Jordan-Stay-Loyal.webp",
+    "id": 9
+  },
+  { "nombre": "Cualquiera 2", "precio": 34576, "imagen": "En la web", "id": 10 }
+]
